@@ -1,0 +1,17 @@
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nav-foot {
+    display: flex;
+    gap: 15px;
+}
+
+.foot img {
+    height: 20px;
+}

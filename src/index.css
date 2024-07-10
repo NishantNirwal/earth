@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --primary: #74A84A;
+    --secondary: #2C541D;
+    --heading: #000000;
+    --text: #585858;
+    --bg-color: #F5F5F5;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "jost", sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text);
+}

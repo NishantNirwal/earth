@@ -1,0 +1,23 @@
+.web {
+    display: flex;
+    padding: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.web-div {
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    
+}
+.web-div h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--heading);
+} 
+.web-div p{
+    font-size: 17px;
+    color: var(--text);
+}

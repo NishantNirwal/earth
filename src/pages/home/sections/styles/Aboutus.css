@@ -1,0 +1,23 @@
+.aboutus {
+    display: flex;
+    padding: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60vh;
+}
+
+.aboutus-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.aboutus-div h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--heading);
+}
+
+.aboutus-div p {
+    font-size: 17px;
+}

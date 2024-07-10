@@ -1,0 +1,30 @@
+.service {
+    min-height: 80vh;
+    padding: 100px 0px;
+}
+
+.service-img {
+    display: grid;
+    margin: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.service-img img {
+    width: 340px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: none;
+}
+
+.service-img h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0;
+    color: var(--heading);
+}
+
+.service-img p {
+    font-size: 16px;
+    font-weight: 400px;
+    color: var(--);
+}

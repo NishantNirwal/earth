@@ -1,0 +1,52 @@
+.pageheroimg {
+    background-image: url(../../assets/Banner.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.pagehero {
+    height: 80vh;
+    color:var(--bg-color);
+}
+
+.header-class {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 110px;
+
+}
+
+.nav-class {
+    display: flex;
+    gap: 35px;
+    font-size: 16px;
+    align-items: center;
+    color: var(--bg-color);
+}
+.nav-class a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.pagehero-div {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: var(--secondary);
+}
+
+.pagehero-div h1 {
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.pagehero-div h2 {
+    font-size: 40px;
+    font-weight: 300;
+}

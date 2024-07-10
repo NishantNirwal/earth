@@ -1,0 +1,22 @@
+.mission {
+    display: flex;
+    padding: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mission-div {
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    
+}
+.mission-div h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--heading);
+} 
+.mission-div p{
+    font-size: 17px;
+    color: var(--text);
+}
