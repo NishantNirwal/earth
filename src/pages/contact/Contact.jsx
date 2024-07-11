@@ -6,7 +6,7 @@ import Footer from '../../components/Footer'
 function Contact() {
   return (
     <div>
-      <PageHero/>
+      <PageHero title='CONTACT US'/>
       <ContactForm/>
       <Footer/>
     </div>

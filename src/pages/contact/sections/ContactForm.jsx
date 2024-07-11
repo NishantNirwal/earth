@@ -6,36 +6,39 @@ function ContactForm() {
         <section className='contactinfo'>
 
             <div className='contact-div1'>
-                <h2>We're Ready, Let's Talk.</h2>
+                <h2>Get In Touch</h2>
 
                 <form className='contact-form'>
                     <input type='text' placeholder='Your Name' />
-                    <input type='email' placeholder='Email Address' />
+                    <input type='phone number' placeholder='Phone Number' />
+                    <input type='email' placeholder='Email' />
                     <textarea placeholder='Message' rows={5} />
                     <div>
-                        <button className='main-btn'>SEND MESSAGE</button>
+                        <button className='main-btn'>SEND NOW</button>
                     </div>
                 </form>
             </div>
 
 
             <div className='contact-div2'>
-                <h2>Contact Info</h2>
+                <h2>Talk To Us</h2>
+
+                    <div className='contact-divi'>
+                        <h5>Email </h5>
+                        <p>something@tyler.com</p>
+                    </div>
 
                 <div className='contact-divi'>
-                    <h5>Address</h5>
-                    <p>123 Fifth Avenue, NY 10160, New York, USA</p>
+                    <h5>PHONE NUMBER</h5>
+                    <p>202-555-0188</p>
                 </div>
 
                 <div className='contact-divi'>
-                    <h5>Email Us</h5>
-                    <p>contact@example.com</p>
+                <h5>Address</h5>
+                    <p>2727 Ocean Road,
+                    Malibu, CA, 90264</p>
                 </div>
 
-                <div className='contact-divi'>
-                    <h5>Call Us</h5>
-                    <p>800-123-456</p>
-                </div>
 
                 <div className='contact-divi' >
                     <h5>Follow Us</h5>
@@ -49,7 +52,7 @@ function ContactForm() {
                 </div>
             </div>
         </section>
-  )
+    )
 }
 
 export default ContactForm

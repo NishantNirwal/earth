@@ -7,9 +7,9 @@ function Content() {
     <section className='con'>
 
     <div className='con-div'>
-        <h2>Web Design</h2>
-        <p>We create custom web design for small businesses, this<br/> will help you capture new audiences and increase your<br/> sales. Contact us by calling, emailing or filling out our<br/> form. You will receive a free quote by email within 24<br/> hours.</p>
-        <button className="main-btn">EXPLORE</button>
+        <h2>Content Writing</h2>
+        <p>Want to attract people to your website? You have to have<br/> the best content in the world. Our content writers will<br/> create award willing content for you. Contact us by calling,<br/>  emailing or filling out ourform. You will receive a free<br/> quote by email within 24 hours.</p>
+        <div><button className="main-btn">EXPLORE</button></div>
     </div>
 
     <div>
