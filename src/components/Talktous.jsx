@@ -1,5 +1,5 @@
 import React from 'react'
-// import './styles/Talktous.css'
+import './styles/Talktous.css'
 
 function Talktous() {
   return (

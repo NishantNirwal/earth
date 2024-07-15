@@ -12,7 +12,7 @@ function OurService() {
 
                 <div><img src={ServImg1} alt="image1" />
                     <h4>Web Design</h4>
-                    <p>Custom web design for small businesses,<br/> we help you capture new audiences and <br/> increase your sales.</p>
+                    <p>Custom web design for small businesses, we help you capture new audiences and <br/> increase your sales.</p>
                 </div>
 
                 <div><img src={ServImg2} alt="image2" />

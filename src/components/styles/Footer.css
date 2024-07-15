@@ -12,6 +12,11 @@
     gap: 15px;
 }
 
+.nav-foot a {
+    color: var(--heading);
+    text-decoration: none;
+}
+
 .foot img {
     height: 20px;
 }

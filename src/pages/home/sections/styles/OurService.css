@@ -5,13 +5,18 @@
 
 .service-img {
     display: grid;
-    margin: 50px;
-    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    overflow: hidden;
+    margin:  50px 0 ;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: 350px 350px 350px ;
+    
 }
 
 .service-img img {
-    width: 340px;
     height: 420px;
+    width: 350px;
     object-fit: cover;
     border-radius: none;
 }
