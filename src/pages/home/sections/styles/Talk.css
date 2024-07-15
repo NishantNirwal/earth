@@ -4,7 +4,8 @@
     align-items: center;
     background-image: url(../../../../assets/Talk.jpg);
     background-position: bottom;
-    height: 80vh;
+    height: 70vh;
+    background-repeat: no-repeat;
 }
 
 .ques-div {

@@ -2,9 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../../../../assets/Talk-to-us.jpg);
+    background-image: url(../../../../assets/Talkto.jpg);
     background-position: bottom;
-    height: 55vh;
+    height: 50vh;
+    background-repeat: no-repeat;
 }
 
 .ques-div {
