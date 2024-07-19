@@ -20,10 +20,17 @@ body {
     color: var(--text);
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-family: "Jost", sans-serif;;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Jost", sans-serif;
+    ;
 }
-p{
+
+p {
     font-family: "Roboto", sans-serif;
     line-height: 30px;
 }
